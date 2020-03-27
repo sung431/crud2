@@ -1,0 +1,41 @@
+header {
+	width: 256px;
+  	height: 2209px;
+  	position: fixed;
+  	top: 0;
+  	left: 0;
+  	background-color: #171c61;
+  	box-shadow: 4px 2px 6px 0 rgba(67, 97, 241, 0.27);
+}
+header .logo {
+	width: 100%;
+	height: 94px;
+	text-align: center;
+	position: relative;
+}
+header .logo img {
+	width: 125px;
+	position: absolute;
+	top: 50%;
+	left: 50%;
+	transform: translate(-50%,-50%);
+}
+header nav ul{
+	width: 100%;
+}
+header nav ul li {
+	width: 100%;
+	height: 60px;
+	padding-left: 51px;
+	line-height: 60px;
+	cursor: pointer;
+}
+header nav ul li a {
+	display: inline-block;
+	width: 100%;
+	font-size: 14px;
+}
+header nav ul li:hover {
+	color: #171c61;
+	background-color: #fff;
+}
